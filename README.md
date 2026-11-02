@@ -191,12 +191,7 @@ CyberNova/
 - [ ] Planificación de monitorización y SIEM.
 - [ ] Documentación técnica de la infraestructura.
 
-## Autor
 
-**Andreu Sánchez Ferre**
-
-- GitHub: [dr3wh4k](https://github.com/dr3wh4k/)
-- LinkedIn: [andreusanchezferre](https://linkedin.com/in/andreusanchezferre/)
 
 ---
 
