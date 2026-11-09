@@ -9,9 +9,13 @@ Sus principales actividades son el análisis forense digital, las auditorías de
 La empresa utiliza tecnologías de análisis de datos para mejorar la detección de incidentes, anticiparse a los ataques y reducir el tiempo necesario para responder ante problemas de seguridad.
 
 - **Misión:** proteger los sistemas y datos de los clientes mediante servicios de ciberseguridad, análisis forense, auditorías y formación.
+
 - **Visión:** convertirse en una empresa de referencia en ciberseguridad, ofreciendo servicios fiables y mejorando continuamente sus sistemas y métodos de trabajo.
+
 - **Clientes:** grandes empresas, corporaciones y pymes con necesidades tecnológicas y de seguridad avanzadas.
-- **Tamaño:** el plan empresarial inicial contempla una plantilla de 30 trabajadores. La distribución concreta entre las cuatro sedes queda pendiente de definir.
+
+- **Tamaño:** el plan empresarial inicial contempla una plantilla de 30 trabajadores repartidos entre la sede central de Alcoi (12 trabajadores) y las sedes de Barcelona (6), Madrid (6) y Vigo (6).
+
 
 ## 2. Organización y sedes
 
@@ -30,17 +34,27 @@ Cada sede estará dividida en dos edificios.
 
 ### Edificio 1
 - Recepción.
+
 - Gerencia y administración.
+
 - Departamento SAT.
+
 - Centro de Procesamiento de Datos (CPD).
+
 - Cobertura Wi-Fi.
+
 
 ### Edificio 2
 - Sala de vigilancia.
+
 - Departamento comercial.
+
 - Producción.
+
 - Almacén.
+
 - Cobertura Wi-Fi.
+
 
 En el CPD de cada sede habrá **3 servidores físicos que alojarán 6 servidores virtuales**. La estructura permitirá distribuir los servicios, facilitar su administración y aprovechar los recursos disponibles.
 
@@ -55,15 +69,22 @@ En el CPD de cada sede habrá **3 servidores físicos que alojarán 6 servidores
 
 ### Distribución prevista de la plantilla
 
-| Departamento | Trabajadores |
-|---|---:|
-| Ciberseguridad e Informática | 18 |
-| Recursos Humanos | 4 |
-| Finanzas y Administración | 4 |
-| Marketing y Comunicación | 4 |
-| **Total** | **30** |
+| Departamento | Alcoi | Barcelona | Madrid | Vigo | Trabajadores |
+|---|---:|---:|---:|---:|---:|
+| Ciberseguridad e Informática | 6 | 4 | 4 | 4 | 18 |
+| Recursos Humanos | 2 | 0 | 1 | 1 | 4 |
+| Finanzas y Administración | 2 | 1 | 1 | 0 | 4 |
+| Marketing y Comunicación | 2 | 1 | 0 | 1 | 4 |
+| **Total** | **12** | **6** | **6** | **6** | **30** |
 
-La sala de vigilancia estará relacionada especialmente con la supervisión de la seguridad y el funcionamiento de la infraestructura. El departamento SAT atenderá incidencias y necesidades de soporte técnico. Las zonas de producción y almacén facilitarán el desarrollo de los servicios y la gestión del material informático.
+### Relación entre los departamentos y las áreas operativas de cada sede
+Las áreas operativas distribuidas entre el Edificio 1 y el Edificio 2 se integran y coordinan con los cuatro departamentos de la siguiente forma:
+
+- **Producción (Edificio 2):** depende del departamento de **Ciberseguridad e Informática**; es el área técnica donde los especialistas ejecutan las auditorías, el pentesting, el análisis forense y el procesamiento de Big Data para los clientes.
+- **Departamento SAT (Edificio 1) y Almacén (Edificio 2):** integrados en **Ciberseguridad e Informática**; el SAT administra el CPD (Edificio 1), resuelve incidencias de todos los departamentos y gestiona en el Almacén el inventario de equipos y repuestos con la validación de compras de **Finanzas y Administración**.
+- **Sala de vigilancia (Edificio 2):** opera en coordinación directa con **Ciberseguridad e Informática y el SAT**, supervisando de forma continua tanto la seguridad física de los edificios como los paneles de alertas de red y disponibilidad del CPD.
+- **Gerencia, Administración y Recepción (Edificio 1):** albergan a los departamentos de **Finanzas y Administración** y **Recursos Humanos**, centralizando la dirección, la gestión laboral/contable y el control de acceso de visitas.
+- **Departamento comercial (Edificio 2):** pertenece a **Marketing y Comunicación**; capta clientes y se coordina con **Producción** para definir el alcance técnico de los servicios contratados y con **Finanzas y Administración** para su presupuestación y facturación.
 
 ## 4. Necesidades tecnológicas detectadas
 
@@ -86,28 +107,44 @@ La sala de vigilancia estará relacionada especialmente con la supervisión de l
 La evolución actual del sector permite identificar oportunidades reales de negocio que justifican contar con esta infraestructura:
 
 - **Cumplimiento normativo obligatorio (Directiva NIS2, ENS y RGPD):** el aumento de exigencias legales obliga a pymes y grandes empresas a auditar sus sistemas regularmente. Contar con un portal de clientes seguro (Extranet) e infraestructura disponible permite comercializar auditorías periódicas y consultoría de cumplimiento.
+
 - **Servicios de seguridad gestionada (SOC externo para pymes):** muchas empresas no pueden mantener un departamento propio de seguridad. La centralización de registros y herramientas entre las cuatro sedes permite ofrecer monitorización remota continua bajo suscripción mensual.
+
 - **Respuesta descentralizada ante incidentes y ransomware:** ante el incremento de ciberataques, tener sedes interconectadas en Alcoi, Barcelona, Madrid y Vigo con entornos virtualizados permite ofrecer asistencia forense rápida y cercana al cliente afectado.
+
 - **Formación corporativa online:** la plataforma web permite comercializar cursos de concienciación y prevención de ataques (como phishing) para empleados de otras empresas.
+
 
 ### 5.2. Problemas y oportunidades de mejora interna
 - **Centralizar los servicios:** facilitar el acceso controlado a recursos compartidos desde las cuatro sedes.
+
 - **Mejorar la comunicación:** permitir la comunicación entre sedes mediante redes privadas.
+
 - **Aumentar la seguridad:** aplicar controles de acceso, segmentación de red, protección perimetral y monitorización.
+He comprobado que el proyecto presenta una buena definición de la empresa, sus necesidades y las oportunidades de negocio. Valoro especialmente la relación entre los problemas detectados y la infraestructura propuesta. Sin embargo, debéis concretar mejor la organización de los trabajadores entre sedes, aclarar los departamentos operativos y establecer requisitos más medibles, especialmente en disponibilidad, copias de seguridad y cobertura de red. También debes unificar el nombre de la empresa en toda la documentación.
 - **Mejorar la disponibilidad:** utilizar virtualización, copias de seguridad y mecanismos de recuperación ante fallos.
+
 - **Facilitar la administración:** organizar servidores y servicios para simplificar su mantenimiento.
+
 - **Agilizar la respuesta a incidentes:** centralizar registros y facilitar la detección de amenazas.
+
 - **Preparar el crecimiento:** diseñar una infraestructura ampliable.
+
 
 Estas mejoras ayudarán a CyberNova a prestar sus servicios de ciberseguridad y a mantener protegida su propia infraestructura.
 
 ## 6. Definición del proyecto
 
 - **Nombre:** Diseño del sistema informático empresarial de CyberNova.
+
 - **Finalidad:** diseñar una infraestructura informática segura, organizada y ampliable para desarrollar la actividad de CyberNova desde sus cuatro sedes.
+
 - **Necesidades que resuelve:** comunicación entre sedes, organización de servicios, protección de la información, acceso a recursos compartidos, administración centralizada y continuidad del servicio.
+
 - **Usuarios destinatarios:** los 30 trabajadores internos de los cuatro departamentos, los clientes autorizados (a través de la Extranet) y los usuarios externos que consulten la web pública.
+
 - **Alcance del proyecto:**
+
   - **Ámbito físico y organizativo:** abarca las cuatro sedes (Alcoi, Barcelona, Madrid y Vigo), los dos edificios que forman cada sede, sus CPD (con 3 servidores físicos y 6 virtuales por sede) y todas las áreas de trabajo.
   - **Ámbito funcional:** cubre la infraestructura de red local e intersede, el almacenamiento compartido por departamentos, la gestión de usuarios, el sistema de incidencias del SAT, la monitorización y las copias de seguridad.
   - **Límites del alcance:** en esta fase se define la arquitectura funcional y los requisitos del sistema; no incluye todavía la compra de hardware, el direccionamiento IP exacto ni la implantación física, que se abordarán en las siguientes fases.
@@ -115,8 +152,11 @@ Estas mejoras ayudarán a CyberNova a prestar sus servicios de ciberseguridad y 
 Se tendrá en cuenta la separación entre tres zonas:
 
 - **Internet o zona pública:** servicios accesibles desde el exterior, como la web corporativa.
+
 - **Extranet:** servicios destinados a clientes y colaboradores autorizados, como el portal de clientes.
+
 - **Intranet:** servicios internos destinados exclusivamente al personal de CyberNova.
+
 
 ## 7. Características y requisitos del sistema
 
@@ -124,15 +164,15 @@ Para responder a las necesidades detectadas sin limitarse a enumerar tecnología
 
 | Código | Requisito | Necesidad que cubre | Criterio de verificación (Cómo se comprueba) | Prioridad |
 |---|---|---|---|---|
-| **RF-01** | El sistema permitirá la comunicación privada entre las redes de Alcoi, Barcelona, Madrid y Vigo. | Red entre sedes | Comprobación de conectividad privada (ping y acceso a recursos) entre equipos de distintas sedes sin salir a red pública. | Alta |
-| **RF-02** | El sistema conectará los dos edificios de cada sede y ofrecerá cobertura Wi-Fi en todas las áreas de trabajo. | Comunicaciones y movilidad | Conexión exitosa de dispositivos por cable y Wi-Fi tanto en el Edificio 1 como en el Edificio 2. | Media |
-| **RF-03** | El sistema validará la identidad de los usuarios de forma centralizada y restringirá el acceso a carpetas según su departamento. | Administración, RR. HH., Marketing y Producción | Un usuario autenticado accede a los recursos de su departamento, pero recibe denegación de acceso al intentar abrir carpetas de otra área. | Alta |
-| **RF-04** | El sistema dispondrá de una herramienta interna para registrar, asignar y cerrar incidencias técnicas. | SAT | Un trabajador registra una incidencia de prueba y el personal del SAT puede visualizarla, actualizarla y cerrarla. | Alta |
-| **RF-05** | El sistema supervisará el estado de los servidores y enlaces de red, generando avisos ante fallos o caídas. | Ciberseguridad, Informática y Sala de vigilancia | Al detener un servicio o servidor virtual de prueba, el panel de supervisión registra el fallo y muestra una alerta activa. | Alta |
-| **RF-06** | El sistema ofrecerá una web corporativa pública y un portal de clientes (Extranet) con acceso mediante usuario y contraseña. | Servicios externos y Comercial | Acceso libre a la web pública desde cualquier navegador y exigencia obligatoria de credenciales para consultar informes en la Extranet. | Media |
-| **RF-07** | El sistema realizará copias de seguridad periódicas de la documentación y datos de los departamentos. | Seguridad de la información | Eliminación simulada de un documento compartido y recuperación íntegra del mismo a partir de la última copia almacenada. | Alta |
-| **RNF-01** | El CPD de cada sede distribuirá los servicios alojando 6 servidores virtuales sobre 3 servidores físicos. | Infraestructura del CPD | Verificación en la consola de virtualización de que las 6 máquinas virtuales se ejecutan repartidas entre los 3 servidores físicos. | Alta |
-| **RNF-02** | La red estará segmentada separando el tráfico de los distintos departamentos, el CPD y la red inalámbrica. | Seguridad de la información | Comprobación de que los equipos de diferentes áreas están en subredes/VLAN distintas y su tráfico pasa por reglas de control. | Alta |
-| **RNF-03** | Las zonas de Internet, Extranet e Intranet estarán aisladas entre sí mediante control de acceso perimetral. | Servicios externos y Seguridad | Verificación de que un usuario externo conectado a la web o a la Extranet no puede establecer conexión directa con equipos de la Intranet. | Alta |
-| **RNF-04** | Los equipos críticos del CPD contarán con protección frente a cortes eléctricos y mecanismos de recuperación ante fallos. | Disponibilidad y CPD | Ante la caída de un servidor físico o corte de suministro simulado, los servicios esenciales se mantienen o se restablecen sin pérdida de datos. | Alta |
-| **RNF-05** | La arquitectura permitirá ampliar al menos un 50 % el número de usuarios, equipos o servicios sin rediseñar el sistema. | Crecimiento de la empresa | Existencia de margen libre en los rangos de red asignados y capacidad de hardware/almacenamiento disponible para nuevas ampliaciones. | Media |
+| **RF-01** | El sistema permitirá la comunicación privada entre las redes de Alcoi, Barcelona, Madrid y Vigo mediante enlaces privados cifrados con una latencia inferior a 50 ms. | Red entre sedes | Prueba de conectividad privada (ping e intercambio de archivos entre subredes de distintas sedes) verificando un 0 % de pérdida de paquetes, latencia < 50 ms y que la ruta (traceroute) viaja por el túnel privado. | Alta |
+| **RF-02** | El sistema conectará los dos edificios de cada sede con enlaces de al menos 1 Gbps y ofrecerá cobertura Wi-Fi (WPA2/WPA3-Enterprise) en todas las áreas de trabajo. | Comunicaciones y movilidad | Prueba de velocidad en enlace cableado entre Edificio 1 y 2 (≥ 1 Gbps) y comprobación de nivel de señal Wi-Fi ≥ -65 dBm en todas las estancias con autenticación de usuario corporativo. | Media |
+| **RF-03** | El sistema validará la identidad de los 30 usuarios mediante un directorio centralizado y restringirá el acceso a carpetas por departamento mediante listas de control de acceso (ACL). | Administración, RR. HH., Marketing y Producción | Prueba de inicio de sesión y acceso: el usuario lee/escribe en la carpeta de su departamento, pero el sistema bloquea el 100 % de los intentos de lectura/escritura en carpetas de otros departamentos. | Alta |
+| **RF-04** | El sistema dispondrá de una herramienta interna de tickets para registrar, asignar y cerrar incidencias técnicas con identificador único y seguimiento de estados. | SAT | Creación de un ticket de prueba verificando su registro en base de datos en menos de 1 minuto, notificación al técnico SAT y cambio de estado (*Abierta, En proceso, Cerrada*). | Alta |
+| **RF-05** | El sistema supervisará cada 60 segundos el estado de los servidores y enlaces de red, generando avisos automáticos en menos de 2 minutos ante caídas o consumo > 90 % de CPU/RAM. | Ciberseguridad, Informática y Sala de vigilancia | Al detener un servidor virtual de prueba, el panel de monitorización detecta el fallo y genera una alerta activa para SAT y Vigilancia en un tiempo inferior a 2 minutos. | Alta |
+| **RF-06** | El sistema ofrecerá una web corporativa pública bajo protocolo seguro HTTPS (TLS 1.3) y un portal de clientes (Extranet) con autenticación obligatoria y bloqueo tras 5 intentos fallidos. | Servicios externos y Comercial | Acceso público verificando certificado TLS válido en la web; en la Extranet, comprobación de denegación sin credenciales y bloqueo temporal de cuenta al superar 5 intentos erróneos. | Media |
+| **RF-07** | El sistema realizará copias de seguridad automáticas (diaria incremental y semanal completa) garantizando un RPO ≤ 24 horas y un tiempo de recuperación (RTO) < 2 horas. | Seguridad de la información | Eliminación simulada de una carpeta departamental y restauración íntegra del 100 % de los archivos desde la última copia en un tiempo inferior a 2 horas. | Alta |
+| **RNF-01** | El CPD de cada sede distribuirá los servicios alojando 6 servidores virtuales sobre 3 servidores físicos (2 MV por nodo en condiciones normales) sin superar el 80 % de carga de CPU/RAM por host. | Infraestructura del CPD | Verificación en el hipervisor de que las 6 máquinas virtuales operan repartidas entre los 3 servidores físicos manteniendo un margen ≥ 20 % de recursos libres. | Alta |
+| **RNF-02** | La red estará segmentada mediante VLANs (estándar IEEE 802.1Q) con subredes IP diferenciadas para cada departamento, el CPD, la sala de vigilancia y la red Wi-Fi. | Seguridad de la información | Comprobación de tablas de enrutamiento y reglas de firewall verificando que el tráfico entre distintas VLANs está bloqueado salvo en los puertos estrictamente autorizados. | Alta |
+| **RNF-03** | Las zonas de Internet, Extranet (DMZ) e Intranet estarán aisladas mediante un firewall perimetral con política por defecto de denegación (*Deny All*) para conexiones entrantes hacia la Intranet. | Servicios externos y Seguridad | Escaneo de puertos desde la zona pública o Extranet hacia el rango IP de la Intranet, comprobando que el 100 % de los intentos de conexión directa son rechazados por el firewall. | Alta |
+| **RNF-04** | Los equipos críticos del CPD contarán con Sistemas de Alimentación Ininterrumpida (SAI) con autonomía ≥ 30 minutos y alta disponibilidad para garantizar un 99,9 % de tiempo de actividad. | Disponibilidad y CPD | Simulación de corte eléctrico y apagado de 1 servidor físico, comprobando que el SAI mantiene el CPD encendido (≥ 30 min) y las máquinas virtuales críticas migran sin pérdida de servicio. | Alta |
+| **RNF-05** | La arquitectura permitirá ampliar al menos un 50 % el número de usuarios (hasta 45 empleados), equipos o servicios sin rediseñar la topología ni sustituir el hardware base. | Crecimiento de la empresa | Verificación técnica de que cada subred VLAN dispone de al menos un 50 % de direcciones IP libres, bocas de switch disponibles y ≥ 30 % de almacenamiento libre en el CPD. | Media |
