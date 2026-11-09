@@ -1,6 +1,6 @@
 # CyberNova – Diseño de Infraestructura Empresarial de Ciberseguridad
 
-<img width="563" height="244" alt="cybernova img" src="https://github.com/user-attachments/assets/b3f53f49-9150-4d85-8486-c510113e97e3" />
+<img width="558" height="235" alt="cybernova" src="https://github.com/user-attachments/assets/b39f4dcd-4c64-4ad2-b038-a4465f37e392" />
 
 
 CyberNova es un proyecto académico de diseño de una infraestructura empresarial para una compañía especializada en **ciberseguridad**, **análisis forense digital**, **pentesting**, **auditorías de seguridad** y **Big Data aplicado a la detección de amenazas**.
